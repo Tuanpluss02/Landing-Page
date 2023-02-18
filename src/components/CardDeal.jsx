@@ -2,6 +2,7 @@ import styles, { layout } from "../style";
 import { portfolio } from "../constants";
 import { Link } from "react-router-dom";
 import MoreInfo  from "./MoreInfo";
+import Button from "./Button";
 
 const CardDeal = () => (
   <section className={layout.section}>
@@ -34,17 +35,20 @@ const CardDeal = () => (
                 {portfolio.name}
             </h4>
             {/* Role */}
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+            <h4 className="
+            font-poppins font-medium 
+            text-[18px] leading-[27px] 
+            text-white">
                 {portfolio.role}
             </h4>
             {/* Button */}
-            {/* <MoreInfo /> */}
-            
+            <button 
+            className="py-4 px-10 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none"
+            onClick={() => window.open(portfolio.link)}>More Info</button>
           </div>
           ))
       }
       </div>
-      
     </div>
   </section>
 );
