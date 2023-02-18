@@ -1,10 +1,10 @@
-import { apple, bill, google } from "../assets";
+import { apple, bill, google, pepe, doge } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={doge} alt="billing" className="w-[50%] h-[80%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -17,8 +17,8 @@ const Billing = () => (
         Easily chat and emoji <br className="sm:block hidden" /> with your friends.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-
         It's now available on the App Store and Google Play.
+        Easy to see, easy to use, and easy to share.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

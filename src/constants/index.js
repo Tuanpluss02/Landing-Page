@@ -25,7 +25,7 @@ export const features = [
     icon: assets.star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "The name says it all. A chat app can do everything for you, only with 5$/month and with one month free",
   },
   {
     id: "feature-2",
@@ -39,7 +39,7 @@ export const features = [
     icon: assets.send,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Faster than the speeding bullet. This is the simplest way to say about our app. No more to wait and trigger about your messages.",
   },
 ];
 
@@ -91,7 +91,7 @@ export const stats = [
 export const portfolio = [
   {
     id: "portfolio-1",
-    image: assets.people01,
+    image: assets.tuanplus,
     name: "Tuan Plus",
     role: "Coach",
     link: "https://stormx.software/#/",
@@ -99,7 +99,7 @@ export const portfolio = [
   },
   {
     id: "portfolio-2",
-    image: assets.people02,
+    image: assets.phongretzka,
     name: "Phongretzka",
     role: "Frontend Team",
     link: "https://leon28phongretzka.github.io/My_Portfolio/", 

@@ -1,5 +1,5 @@
 import styles from "../style";
-import { logo } from "../assets";
+import { logo, ChatGPT } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
@@ -7,9 +7,9 @@ const Footer = () => (
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
-          src={logo}
+          src={ChatGPT}
           alt="hoobank"
-          className="w-[266px] h-[72.14px] object-contain"
+          className="w-[20%] h-[20%] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
           A new way to connect with the people you care about.
