@@ -19,10 +19,10 @@ const CardDeal = () => (
       </p>
 
       {/* Basic Info and Role */}
-      <div className="flex flex-col md:flex-row flex-wrap items-center">
+      <div className="flex py-4">
       {
         portfolio.map((portfolio) => (
-          <div key={portfolio.id} className="flex flex-col items-center">
+          <div key={portfolio.id} className="flex flex-col px-4 items-center">
             {/* Image */}
             <img 
             key={portfolio.id} 
