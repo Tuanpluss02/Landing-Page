@@ -20,10 +20,11 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import tuanplus from "./tuanplus.png";
+import phongretzka from "./phongretzka.png";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-
 export {
   airbnb,
   bill,

@@ -1,7 +1,7 @@
 import styles, { layout } from "../style";
 import { portfolio } from "../constants";
 import { Link } from "react-router-dom";
-
+import MoreInfo  from "./MoreInfo";
 
 const CardDeal = () => (
   <section className={layout.section}>
@@ -25,7 +25,7 @@ const CardDeal = () => (
             {/* Image */}
             <img 
             key={portfolio.id} 
-            src={portfolio.img} 
+            src={portfolio.image} 
             alt={portfolio.name} 
             className="w-[50px] h-[50px] object-contain" 
             onClick={() => window.open(portfolio.link)}/>
@@ -37,7 +37,8 @@ const CardDeal = () => (
             <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
                 {portfolio.role}
             </h4>
-            {/* Link */}
+            {/* Button */}
+            {/* <MoreInfo /> */}
             
           </div>
           ))
