@@ -95,6 +95,7 @@ export const portfolio = [
     name: "Tuan Plus",
     role: "Coach",
     link: "https://stormx.software/#/",
+    
   },
   {
     id: "portfolio-2",
@@ -102,9 +103,9 @@ export const portfolio = [
     name: "Phongretzka",
     role: "Frontend Team",
     link: "https://leon28phongretzka.github.io/My_Portfolio/",
+    
   },
-
-  
+ 
 ];
 
 export const footerLinks = [
