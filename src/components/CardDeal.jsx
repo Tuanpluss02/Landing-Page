@@ -44,7 +44,7 @@ const CardDeal = () => (
             {/* Button */}
             <button 
             className="py-4 px-10 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none"
-            onClick={() => window.open(portfolio.link)}>More Info</button>
+            onClick={() => window.open(portfolio.link)}>Portfolio</button>
           </div>
           ))
       }
