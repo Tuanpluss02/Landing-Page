@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, logo, menu, ChatGPT } from "../assets";
+import { close, logo, menu, ChatGPT, oversimplified } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={ChatGPT} alt="hoobank" className="w-[10%] h-[10%]" />
+      <img src={oversimplified} alt="hoobank" className="w-[25%] h-[25%]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

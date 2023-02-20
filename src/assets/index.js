@@ -26,6 +26,7 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import ChatGPT from "./ChatGPT_logo.svg";
+import oversimplified from "./oversimplified.png";
 
 import tuanplus from "./tuanplus.png";
 import phongretzka from "./phongretzka.png";
@@ -65,4 +66,5 @@ export {
   pepe,
   doge,
   ChatGPT,
+  oversimplified,
 };
