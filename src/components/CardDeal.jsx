@@ -28,7 +28,7 @@ const CardDeal = () => (
             key={portfolio.id} 
             src={portfolio.image} 
             alt={portfolio.name} 
-            className="w-[100px] h-[100px] object-contain" 
+            className="w-[100px] h-[100px] rounded-[50%] mb-4 cursor-pointer object-contained" 
             onClick={() => window.open(portfolio.link)}/>
             {/* Name */}
             <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">

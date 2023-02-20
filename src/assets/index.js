@@ -14,6 +14,7 @@ import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import chatting from "./chatting.jpg";
+import verycool from "./verycool.png";
 
 import google from "./google.svg";
 import apple from "./apple.svg";
@@ -29,7 +30,7 @@ import ChatGPT from "./ChatGPT_logo.svg";
 import oversimplified from "./oversimplified.png";
 
 import tuanplus from "./tuanplus.png";
-import phongretzka from "./phongretzka.png";
+import phongretzka from "./phongretzka.jpg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
@@ -67,4 +68,5 @@ export {
   doge,
   ChatGPT,
   oversimplified,
+  verycool,
 };

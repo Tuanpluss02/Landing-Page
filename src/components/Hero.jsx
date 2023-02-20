@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, chatting } from "../assets";
+import { discount, chatting, verycool } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -28,14 +28,12 @@ const Hero = () => {
           Message App.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of specialist uses a methodology to identify the chat app
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          Our team of specialist uses a methodology to identify oversimplified thing itw.
         </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={chatting} alt="billing" className="w-[100%] h-[88%] relative z-[5]" />
+        <img src={verycool} alt="billing" className="w-[100%] h-[88%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

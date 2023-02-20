@@ -22,7 +22,7 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        The connection <br className="sm:block hidden" /> between everyone in the new gen chat app.
+        The connection <br className="sm:block hidden" /> between everyone in the new gen anti-wjbu group.
        
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
