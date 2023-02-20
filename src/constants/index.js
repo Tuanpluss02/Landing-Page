@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: assets.star,
-    title: "Rewards",
+    title: "Ambition",
     content:
-      "The name says it all. A chat app can do everything for you, only with 5$/month and with one month free",
+      "The name say it all. Learn to oversimplify the world. Hardwork and work smart to oversimplify every thing we make.",
   },
   {
     id: "feature-2",
     icon: assets.shield,
-    title: "100% Secured",
+    title: "Spirit",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "A team with a strong spirit between each other and has pressure when deadlines are coming",
   },
   {
     id: "feature-3",
     icon: assets.send,
-    title: "Balance Transfer",
+    title: "This title is nothing but....",
     content:
-      "Faster than the speeding bullet. This is the simplest way to say about our app. No more to wait and trigger about your messages.",
+      "Faster than the speeding bullet. This is the simplest way to say about our app. No more to wait and trigger.",
   },
 ];
 
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "1500+",
+    title: "Cobollaborators",
+    value: "7",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Projects",
+    value: "100+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$23M+",
+    title: "Awards",
+    value: "10+",
   },
 ];
 
