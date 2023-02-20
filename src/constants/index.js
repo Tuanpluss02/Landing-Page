@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Many potential investors are looking for a good idea.",
+    name: "Apashe",
+    title: "Kaniballen Records",
     img: assets.people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Simplified the code, simplified the process, simplified the world.",
+    name: "Todd Boehly",
+    title: "",
     img: assets.people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Something would be easy to do if you know how to oversimplify it.",
+    name: "Jordan Walke",
+    title: "ReactJS Creator",
     img: assets.people03,
   },
 ];
@@ -120,7 +120,7 @@ export const portfolio = [
   },
   {
     id: "portfolio-5",
-    // image: assets.cheemlsea,
+    image: assets.ducanh,
     name: "Duc Anh",
     role: "Frontend Team",
     link: "https://ducanhtranptit.github.io/pro5/", 

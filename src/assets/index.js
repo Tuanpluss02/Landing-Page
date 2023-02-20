@@ -39,6 +39,7 @@ import phongretzka from "./phongretzka.jpg";
 import dannguyen from "./dannguyen.jpg";
 import cheemlsea from "./cheemlsea.jpg";
 import jackson from "./jackson.jpg";
+import ducanh from "./ducanh.jpg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
@@ -84,4 +85,5 @@ export {
   dannguyen,
   cheemlsea,
   jackson,
+  ducanh,
 };
