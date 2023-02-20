@@ -6,8 +6,7 @@ const CTA = () => (
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Let’s try our service now!</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Everything you need is install and use our service. It’s easy and fast.
-        
+        This is the oversimplified group and make everythin' complicated.
       </p>
     </div>
 

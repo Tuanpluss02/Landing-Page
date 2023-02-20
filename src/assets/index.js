@@ -27,7 +27,12 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import ChatGPT from "./ChatGPT_logo.svg";
+
 import oversimplified from "./oversimplified.png";
+import ezthing from "./oversimplified.gif";
+import genius from "./genius.gif";
+import npl from "./npl.gif";
+
 
 import tuanplus from "./tuanplus.png";
 import phongretzka from "./phongretzka.jpg";
@@ -69,4 +74,7 @@ export {
   ChatGPT,
   oversimplified,
   verycool,
+  ezthing,
+  genius,
+  npl,
 };
