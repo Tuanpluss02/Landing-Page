@@ -123,18 +123,18 @@ export const portfolio = [
     // image: assets.cheemlsea,
     name: "Duc Anh",
     role: "Frontend Team",
-    link: "", 
+    link: "https://ducanhtranptit.github.io/pro5/", 
   },
   {
     id: "portfolio-6",
     image: assets.jackson,
     name: "Minh Son",
     role: "Backend Team",
-    link: "https://nguyenminhson.cf", 
+    link: "https://minhson1411.github.io/portfolio/", 
   },
   {
     id: "portfolio-7",
-    // image: assets.jackson,
+    // image:
     name: "Tuan Anh",
     role: "Tester",
     link: "", 
