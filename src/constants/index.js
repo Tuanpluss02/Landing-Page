@@ -104,7 +104,41 @@ export const portfolio = [
     role: "Frontend Team",
     link: "https://leon28phongretzka.github.io/My_Portfolio/", 
   },
-  
+  {
+    id: "portfolio-3",
+    image: assets.dannguyen,
+    name: "Zidanee",
+    role: "Frontend Team",
+    link: "https://dannguyenmessi1705.github.io/Portfolio/", 
+  },
+  {
+    id: "portfolio-4",
+    image: assets.cheemlsea,
+    name: "Thanh Dat B",
+    role: "Frontend Team",
+    link: "https://zneg2.github.io", 
+  },
+  {
+    id: "portfolio-5",
+    // image: assets.cheemlsea,
+    name: "Duc Anh",
+    role: "Frontend Team",
+    link: "", 
+  },
+  {
+    id: "portfolio-6",
+    image: assets.jackson,
+    name: "Minh Son",
+    role: "Backend Team",
+    link: "https://nguyenminhson.cf", 
+  },
+  {
+    id: "portfolio-7",
+    // image: assets.jackson,
+    name: "Tuan Anh",
+    role: "Tester",
+    link: "", 
+  },
  
 ];
 

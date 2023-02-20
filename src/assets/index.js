@@ -36,6 +36,9 @@ import npl from "./npl.gif";
 
 import tuanplus from "./tuanplus.png";
 import phongretzka from "./phongretzka.jpg";
+import dannguyen from "./dannguyen.jpg";
+import cheemlsea from "./cheemlsea.jpg";
+import jackson from "./jackson.jpg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
@@ -63,8 +66,6 @@ export {
   instagram,
   linkedin,
   twitter,
-  tuanplus,
-  phongretzka,
   people01,
   people02,
   people03,
@@ -77,4 +78,10 @@ export {
   ezthing,
   genius,
   npl,
+
+  tuanplus,
+  phongretzka,
+  dannguyen,
+  cheemlsea,
+  jackson,
 };
