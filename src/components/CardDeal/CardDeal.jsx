@@ -1,28 +1,8 @@
 import styles, { layout } from "../../style";
 import { portfolio } from "../../constants";
-// import { Link } from "react-router-dom";
-// import MoreInfo  from "./MoreInfo";
-// import Button from "./Button";
-// import Style from "./style";
 import "../../index.css";
 import "../../assets/fontawesome-free-6.2.0-web/css/all.css";
-import Slider from "react-slick";
-import { useState } from "react";
-import * as assets from "../../assets";
-// const SETTINGS = {
-//   dots: false,
-//   infinite: true,
-//   autoplay: true,
-//   autoplaySpeed: 3000,
-//   slidesToShow: data.length > 10 ? 10 : data.length,
-//   slidesToScroll: 1,
-//   pauseOnFocus: false,
-// };
-// const [activeMember, setActiveMember] = useState(0);
-// var data = portfolio[0];
-// function setData(index) {
-//   data = portfolio[index];
-// }
+
 const DisplayMember = (props) => {
   const { data } = props;
   console.log(data, data.id, data.image, data.name, data.link);
@@ -34,9 +14,6 @@ const DisplayMember = (props) => {
         margin: "0 10px",
         padding: "10px",
       }}
-      // onClick={() =>
-      //   setActiveMember(index)
-      // }
     >
       <div key={data.id} className="flex flex-col px-4 items-center">
         {/* Image */}
@@ -109,20 +86,10 @@ const CardDeal = () => (
 
       {/* Basic Info and Role */}
       <div className="items-center" style={{ margin: "50px auto 0" }}>
-        {/* <div className="mx-auto my-0">
-          <DisplayMember className="item-center mx-250" data={portfolio[0]} />
-        </div> */}
         <div className="grid grid-cols-3 gap-4 py-4 mx-[120px]">
-          {/* <Slider
-                {...SETTINGS}
-                afterChange={(index) => setActiveMember(index)}> */}
           <DisplayMember data={portfolio[0]} />
           <DisplayMember data={portfolio[1]} />
           <DisplayMember data={portfolio[2]} />
-          {/* <DisplayMember data={portfolio[3]} />
-          <DisplayMember data={portfolio[4]} />
-          <DisplayMember data={portfolio[5]} />
-          <DisplayMember data={portfolio[6]} /> */}
           {portfolio.map((data, index) => {
             <DisplayMember data={portfolio[index]} />;
           })}
@@ -130,12 +97,6 @@ const CardDeal = () => (
           {/* </Slider>	 */}
         </div>
         <div className="grid grid-cols-4 gap-4 py-4">
-          {/* <Slider
-                {...SETTINGS}
-                afterChange={(index) => setActiveMember(index)}> */}
-          {/* <DisplayMember data={portfolio[0]} />
-          <DisplayMember data={portfolio[1]} />
-          <DisplayMember data={portfolio[2]} /> */}
           <DisplayMember data={portfolio[3]} />
           <DisplayMember data={portfolio[4]} />
           <DisplayMember data={portfolio[5]} />
