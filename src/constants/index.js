@@ -14,6 +14,10 @@ export const navLinks = [
     title: "Product",
   },
   {
+    id: "Member",
+    title: "Member",
+  },
+  {
     id: "clients",
     title: "Clients",
   },
@@ -46,8 +50,7 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Many potential investors are looking for a good idea.",
+    content: "Many potential investors are looking for a good idea.",
     name: "Apashe",
     title: "Kaniballen Records",
     img: assets.people01,
@@ -95,51 +98,49 @@ export const portfolio = [
     name: "Tuan Plus",
     role: "Coach",
     link: "https://stormx.software/#/",
-    
   },
   {
     id: "portfolio-2",
     image: assets.phongretzka,
     name: "Phongretzka",
     role: "Frontend Team",
-    link: "https://leon28phongretzka.github.io/My_Portfolio/", 
+    link: "https://leon28phongretzka.github.io/My_Portfolio/",
   },
   {
     id: "portfolio-3",
     image: assets.dannguyen,
     name: "Zidanee",
     role: "Frontend Team",
-    link: "https://dannguyenmessi1705.github.io/Portfolio/", 
+    link: "https://dannguyenmessi1705.github.io/Portfolio/",
   },
   {
     id: "portfolio-4",
     image: assets.cheemlsea,
     name: "Thanh Dat B",
     role: "Frontend Team",
-    link: "https://zneg2.github.io", 
+    link: "https://zneg2.github.io",
   },
   {
     id: "portfolio-5",
     image: assets.ducanh,
     name: "Duc Anh",
     role: "Frontend Team",
-    link: "https://ducanhtranptit.github.io/pro5/", 
+    link: "https://ducanhtranptit.github.io/pro5/",
   },
   {
     id: "portfolio-6",
     image: assets.jackson,
     name: "Minh Son",
     role: "Backend Team",
-    link: "https://minhson1411.github.io/portfolio/", 
+    link: "https://minhson1411.github.io/portfolio/",
   },
   {
     id: "portfolio-7",
     // image:
     name: "Tuan Anh",
     role: "Tester",
-    link: "", 
+    link: "",
   },
- 
 ];
 
 export const footerLinks = [
@@ -230,7 +231,6 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
-
 
 export const clients = [
   {
