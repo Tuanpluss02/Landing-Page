@@ -87,23 +87,23 @@ const CardDeal = () => (
       {/* Basic Info and Role */}
       <div className="items-center" style={{ margin: "50px auto 0" }}>
         <div className="grid grid-cols-3 gap-4 py-4 mx-[120px]">
-          <DisplayMember data={portfolio[0]} />
-          <DisplayMember data={portfolio[1]} />
-          <DisplayMember data={portfolio[2]} />
-          {/* {portfolio.map((data, index) => {
-            <DisplayMember data={portfolio[index]} />;
-          })} */}
+          {/* <Slider
+                {...SETTINGS}
+                afterChange={(index) => setActiveMember(index)}> */}
+          {portfolio.map((data, index) => {
+            return index < 3 && <DisplayMember data={data} />;
+          })}
 
           {/* </Slider>	 */}
         </div>
         <div className="grid grid-cols-4 gap-4 py-4">
-          <DisplayMember data={portfolio[3]} />
-          <DisplayMember data={portfolio[4]} />
-          <DisplayMember data={portfolio[5]} />
-          <DisplayMember data={portfolio[6]} />
-          {/* {portfolio.map((data, index) => {
-            <DisplayMember data={portfolio[index]} />;
-          })} */}
+          {/* <Slider
+                {...SETTINGS}
+                afterChange={(index) => setActiveMember(index)}> */}
+
+          {portfolio.map((data, index) => {
+            return index > 2 && <DisplayMember data={data} />;
+          })}
 
           {/* </Slider>	 */}
         </div>
