@@ -1,14 +1,12 @@
+import { useRive } from "@rive-app/react-canvas";
 import styles from "../style";
-import { discount, chatting, verycool, genius } from "../assets";
 import GetStarted from "./GetStarted";
-import Rive, { useRive } from "@rive-app/react-canvas";
 function Simple() {
   const { rive, RiveComponent } = useRive({
     src: "https://public.rive.app/community/runtime-files/3541-7421-animated-chatbot.riv",
     autoplay: true,
     stateMachines: "Chatbot State Machine",
   });
-
   return (
     <RiveComponent
       onMouseEnter={() => rive && rive.play()}
@@ -25,17 +23,9 @@ const Hero = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        {/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-          <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Free 1000</span> Mintues Video Call For{" "}
-            <span className="text-white">1 Month</span> Account
-          </p>
-        </div> */}
-
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            The Simplest <br className="sm:block hidden" />{" "}
+            {/* The Simplest <br className="sm:block hidden" />{" "} */}
             <span className="text-gradient">Software Engineering </span>{" "}
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
@@ -44,11 +34,10 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          ITW.
+          Freelancer team.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of specialist uses a methodology to identify oversimplified
-          thing itw.
+          We are a group of students from the Faculty of Information Technology.
         </p>
       </div>
 

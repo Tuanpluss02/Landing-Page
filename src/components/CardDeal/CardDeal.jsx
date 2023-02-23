@@ -1,7 +1,7 @@
-import styles, { layout } from "../../style";
+import "../../assets/fontawesome-free-6.2.0-web/css/all.css";
 import { portfolio } from "../../constants";
 import "../../index.css";
-import "../../assets/fontawesome-free-6.2.0-web/css/all.css";
+import styles, { layout } from "../../style";
 
 const DisplayMember = (props) => {
   const { data } = props;
@@ -41,17 +41,17 @@ const DisplayMember = (props) => {
         {/* Social */}
         <div className="flex flex-row">
           <dic style={{ color: "white", fontSize: "35px", margin: "0 10px" }}>
-            <a href="#">
+            <a href={data.github}>
               <i class="fa-brands fa-github"></i>
             </a>
           </dic>
           <dic style={{ color: "white", fontSize: "35px", margin: "0 10px" }}>
-            <a href="#">
+            <a href={data.linkedin}>
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </dic>
           <dic style={{ color: "white", fontSize: "35px", margin: "0 10px" }}>
-            <a href="#">
+            <a href={data.web}>
               <i class="fa-solid fa-image-portrait"></i>
             </a>
           </dic>
@@ -90,9 +90,9 @@ const CardDeal = () => (
           <DisplayMember data={portfolio[0]} />
           <DisplayMember data={portfolio[1]} />
           <DisplayMember data={portfolio[2]} />
-          {portfolio.map((data, index) => {
+          {/* {portfolio.map((data, index) => {
             <DisplayMember data={portfolio[index]} />;
-          })}
+          })} */}
 
           {/* </Slider>	 */}
         </div>
@@ -101,9 +101,9 @@ const CardDeal = () => (
           <DisplayMember data={portfolio[4]} />
           <DisplayMember data={portfolio[5]} />
           <DisplayMember data={portfolio[6]} />
-          {portfolio.map((data, index) => {
+          {/* {portfolio.map((data, index) => {
             <DisplayMember data={portfolio[index]} />;
-          })}
+          })} */}
 
           {/* </Slider>	 */}
         </div>
