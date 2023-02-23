@@ -34,10 +34,10 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Freelancer team.
+          Team Seven.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          We are a group of students from the Faculty of Information Technology.
+          We are a group of students from the faculty of Electronics and Telecommunication at the Posts and Telecommunications Institute of Technology.
         </p>
       </div>
 

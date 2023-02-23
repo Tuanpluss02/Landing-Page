@@ -6,20 +6,20 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "Member",
+    title: "Member",
   },
   {
     id: "product",
     title: "Product",
   },
   {
-    id: "Member",
-    title: "Member",
+    id: "features",
+    title: "Features",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Reviews",
   },
 ];
 
@@ -147,7 +147,7 @@ export const portfolio = [
   },
   {
     id: "portfolio-7",
-    // image:
+    image: assets.tuananh,
     name: "Tuan Anh",
     role: "Tester", github: "https://github.com/tunanhbunriu",
     linkedin: "",
