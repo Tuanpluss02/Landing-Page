@@ -116,15 +116,8 @@ const CardDeal = () => (
           {/* <Slider
                 {...SETTINGS}
                 afterChange={(index) => setActiveMember(index)}> */}
-          <DisplayMember data={portfolio[0]} />
-          <DisplayMember data={portfolio[1]} />
-          <DisplayMember data={portfolio[2]} />
-          {/* <DisplayMember data={portfolio[3]} />
-          <DisplayMember data={portfolio[4]} />
-          <DisplayMember data={portfolio[5]} />
-          <DisplayMember data={portfolio[6]} /> */}
           {portfolio.map((data, index) => {
-            <DisplayMember data={portfolio[index]} />;
+            return index < 3 && <DisplayMember data={data} />;
           })}
 
           {/* </Slider>	 */}
@@ -133,15 +126,8 @@ const CardDeal = () => (
           {/* <Slider
                 {...SETTINGS}
                 afterChange={(index) => setActiveMember(index)}> */}
-          {/* <DisplayMember data={portfolio[0]} />
-          <DisplayMember data={portfolio[1]} />
-          <DisplayMember data={portfolio[2]} /> */}
-          <DisplayMember data={portfolio[3]} />
-          <DisplayMember data={portfolio[4]} />
-          <DisplayMember data={portfolio[5]} />
-          <DisplayMember data={portfolio[6]} />
           {portfolio.map((data, index) => {
-            <DisplayMember data={portfolio[index]} />;
+            return index > 2 && <DisplayMember data={data} />;
           })}
 
           {/* </Slider>	 */}
