@@ -37,13 +37,13 @@ import people03 from "./people03.png";
 import phongretzka from "./phongretzka.jpg";
 import tuananh from "./tuananh.jpg";
 import tuanplus from "./tuanplus.png";
-import mainicon from "./mainicon.png";
 
 export {
   logo,
   quotes,
   robot,
   send,
+  tuananh,
   shield,
   star,
   menu,
@@ -67,14 +67,13 @@ export {
   verycool,
   ezthing,
   genius,
-  mainicon,
   npl,
+
   tuanplus,
   phongretzka,
   dannguyen,
   cheemlsea,
   jackson,
   ducanh,
-  tuananh
 };
 

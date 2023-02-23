@@ -27,48 +27,48 @@ export const features = [
   {
     id: "feature-1",
     icon: assets.star,
-    title: "Ambition",
+    title: "Real-time messaging",
     content:
-      "The name say it all. Learn to oversimplify the world. Hardwork and work smart to oversimplify every thing we make.",
+      "Real-time messaging allows users to send and receive messages instantly without any delay.",
   },
   {
     id: "feature-2",
     icon: assets.shield,
-    title: "Spirit",
+    title: "User authentication and security",
     content:
-      "A team with a strong spirit between each other and has pressure when deadlines are coming",
+      "With robust user authentication and security measures ensures that only authorized users can access the platform.",
   },
   {
     id: "feature-3",
     icon: assets.send,
-    title: "This title is nothing but....",
+    title: "Customizable chat rooms",
     content:
-      "Faster than the speeding bullet. This is the simplest way to say about our app. No more to wait and trigger.",
+      "Allows users to create custom chat rooms provides a more personalized experience for its users.",
   },
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
-    content: "Many potential investors are looking for a good idea.",
-    name: "Apashe",
-    title: "Kaniballen Records",
+    content: "As a software engineer, I was impressed with the real-time messaging feature of this chat website. ",
+    name: "John Smith",
+    title: "Software Engineer",
     img: assets.people01,
   },
   {
     id: "feedback-2",
     content:
-      "Simplified the code, simplified the process, simplified the world.",
-    name: "Todd Boehly",
-    title: "",
+      "The customizable chat rooms feature of this chat website has been a game-changer for our marketing team.",
+    name: "Mary Johnson",
+    title: "Marketing Manager",
     img: assets.people02,
   },
   {
     id: "feedback-3",
     content:
-      "Something would be easy to do if you know how to oversimplify it.",
-    name: "Jordan Walke",
-    title: "ReactJS Creator",
+      "As a freelance writer, I often communicate with clients and share sensitive information through messaging platforms.",
+    name: "Tom Davis",
+    title: "Freelance Writer",
     img: assets.people03,
   },
 ];
