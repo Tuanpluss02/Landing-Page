@@ -1,6 +1,7 @@
 import { useRive } from "@rive-app/react-canvas";
 import styles from "../style";
 import GetStarted from "./GetStarted";
+
 function Simple() {
   const { rive, RiveComponent } = useRive({
     src: "https://public.rive.app/community/runtime-files/3541-7421-animated-chatbot.riv",
@@ -9,11 +10,13 @@ function Simple() {
   });
   return (
     <RiveComponent
-      onMouseEnter={() => rive && rive.play()}
-      onMouseLeave={() => rive && rive.pause()}
+      autoplay={true}
+    // onMouseEnter={() => rive && rive.play()}
+    // onMouseLeave={() => rive && rive.pause()}
     />
   );
 }
+
 const Hero = () => {
   return (
     <section
@@ -25,12 +28,9 @@ const Hero = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            {/* The Simplest <br className="sm:block hidden" />{" "} */}
             <span className="text-gradient">Software Engineering </span>{" "}
           </h1>
-          {/* <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
-          </div> */}
+
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
@@ -44,10 +44,7 @@ const Hero = () => {
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-        {/* img1 */}
-        {/* <img src={genius} alt="billing" className="w-[100%] h-[88%] relative z-[5]" />*/}
-        <div className="w-[100%] h-[88%] relative z-[5]">
-          {/* <Rive src="https://public.rive.app/community/runtime-files/3541-7421-animated-chatbot.riv" /> */}
+        <div className="w-[100%] h-[88%] relative z-[5]" style={{ transform: 'scale(1.75)' }}>
           <Simple />
         </div>
         {/* gradient start */}
