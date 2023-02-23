@@ -44,7 +44,7 @@ const Hero = () => {
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-        <div className="w-[100%] h-[88%] relative z-[5]" style={{ transform: 'scale(1.75)' }}>
+        <div className="w-[100%] h-[88%] relative z-[5]" style={{ transform: 'scale(1.5)' }}>
           <Simple />
         </div>
         {/* gradient start */}
