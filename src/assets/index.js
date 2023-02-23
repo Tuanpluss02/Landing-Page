@@ -1,56 +1,43 @@
-import airbnb from "./airbnb.png";
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
-
+import chatting from "./chatting.jpg";
+import close from "./close.svg";
 import logo from "./logo.svg";
+import menu from "./menu.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
-import menu from "./menu.svg";
-import close from "./close.svg";
-import chatting from "./chatting.jpg";
 import verycool from "./verycool.png";
 
-import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
-import pepe from "./pepe.gif";
-import doge from "./doge.gif";
+import ChatGPT from "./ChatGPT_logo.svg";
 import discount from "./Discount.svg";
+import doge from "./doge.gif";
 import facebook from "./facebook.svg";
+import google from "./google.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
+import pepe from "./pepe.gif";
 import twitter from "./twitter.svg";
-import ChatGPT from "./ChatGPT_logo.svg";
 
-import oversimplified from "./oversimplified.png";
-import ezthing from "./oversimplified.gif";
 import genius from "./genius.gif";
-import npl from "./npl.gif";
+import npl from "./mockup1.png";
+import ezthing from "./oversimplified.gif";
+import oversimplified from "./oversimplified.png";
 
 
-import tuanplus from "./tuanplus.png";
-import phongretzka from "./phongretzka.jpg";
-import dannguyen from "./dannguyen.jpg";
 import cheemlsea from "./cheemlsea.jpg";
-import jackson from "./jackson.jpg";
+import dannguyen from "./dannguyen.jpg";
 import ducanh from "./ducanh.jpg";
+import jackson from "./jackson.jpg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import phongretzka from "./phongretzka.jpg";
+import tuanplus from "./tuanplus.png";
 
 export {
-  airbnb,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
   logo,
   quotes,
   robot,
@@ -87,3 +74,4 @@ export {
   jackson,
   ducanh,
 };
+
