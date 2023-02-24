@@ -21,7 +21,7 @@ This Landing Page is built using the following technologies:
 - ReactJS
 - Vite
 - Tailwind CSS
-- Rive
+- Rive Animation
 - Firebase
 
 ## Contributors
