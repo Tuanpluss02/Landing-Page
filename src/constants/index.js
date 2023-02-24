@@ -262,3 +262,21 @@ export const clients = [
     logo: assets.dropbox,
   },
 ];
+export const clients2 = [
+  {
+    id: "client-1",
+    logo: assets.airbnb,
+  },
+  {
+    id: "client-2",
+    logo: assets.binance,
+  },
+  {
+    id: "client-3",
+    logo: assets.coinbase,
+  },
+  {
+    id: "client-4",
+    logo: assets.dropbox,
+  },
+];
