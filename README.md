@@ -1,6 +1,6 @@
 # Software Engineering Landing Page
 
-Welcome to the Software Engineering Landing Page project! This is a project developed by Team Seven for the course "Software Engineering" at the Post and Telecommunications Institute of Technology (PTIT) in Ha Noi, Viet Nam.
+Welcome to the Team Seven landing lage project! This is a project developed by Team Seven for the course "Software Engineering" at the Post and Telecommunications Institute of Technology (PTIT) in Ha Noi, Viet Nam.
 
 The Software Engineering Landing Page is a website designed to showcase our team's project, Pro Chat. The website provides information about the project, including its features and technologies used, as well as a link to the application itself.
 
@@ -16,9 +16,12 @@ To view the Software Engineering Landing Page, you can visit our website at [htt
 
 ## Technologies Used
 
-The Software Engineering Landing Page is built using the following technologies:
+This Landing Page is built using the following technologies:
 
 - ReactJS
+- Vite
+- Tailwind CSS
+- Rive
 - Firebase
 
 ## Contributors
@@ -33,10 +36,6 @@ The Software Engineering Landing Page project was developed by Team Seven, consi
 - Tran Duc Anh
 - Nguyen Minh Son
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
 ## Acknowledgments
 
-We would like to thank our instructor for guiding us throughout the project, and our classmates for their support and feedback.
+Thanks to `Nguyen Trung Anh` - our teacher and the university `Posts and Telecommunications Institute of Technology` for giving us the opportunity to learn and practice.

@@ -74,7 +74,7 @@ const CardDeal = () => (
   >
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Our team's information
+        Our team
         <br className="sm:block hidden" />
       </h2>
 
