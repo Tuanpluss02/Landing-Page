@@ -1,14 +1,14 @@
-import Navbar from "./Navbar";
 import Billing from "./Billing";
-import CardDeal from "./CardDeal/CardDeal";
 import Business from "./Business";
+import CardDeal from "./CardDeal";
 import Clients from "./Clients";
 import CTA from "./CTA";
-import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import MoreInfo from "./MoreInfo";
+import Navbar from "./Navbar";
+import Stats from "./Stats";
+import Testimonials from "./Testimonials";
 
 export {
   Navbar,
@@ -23,3 +23,4 @@ export {
   Hero,
   MoreInfo,
 };
+

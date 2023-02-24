@@ -1,7 +1,7 @@
-import "../../assets/fontawesome-free-6.2.0-web/css/all.css";
-import { portfolio } from "../../constants";
-import "../../index.css";
-import styles, { layout } from "../../style";
+import "../assets/fontawesome-free-6.2.0-web/css/all.css";
+import { portfolio } from "../constants";
+import "../index.css";
+import styles, { layout } from "../style";
 
 const DisplayMember = (props) => {
   const { data } = props;
