@@ -1,8 +1,8 @@
 # Software Engineering Landing Page
 
-Welcome to the Team Seven landing lage project! This is a project developed by Team Seven for the course "Software Engineering" at the Post and Telecommunications Institute of Technology (PTIT) in Ha Noi, Viet Nam.
+Welcome to the Team Seven landing lage project! This is a project developed by `Team Seven` for the course `Software Engineering` at the `Post and Telecommunications Institute of Technology (PTIT)` in Ha Noi, Viet Nam.
 
-The Software Engineering Landing Page is a website designed to showcase our team's project, Pro Chat. The website provides information about the project, including its features and technologies used, as well as a link to the application itself.
+The Software Engineering Landing Page is a website designed to showcase our team's project, `Pro Chat`. The website provides information about the project, including its features and technologies used, as well as a link to the application itself.
 
 ## Getting Started
 
