@@ -22,7 +22,7 @@ const DisplayMember = (props) => {
           src={data.image}
           alt={data.name}
           className="w-[100px] h-[100px] rounded-[50%] mb-4 cursor-pointer object-contained"
-          onClick={() => window.open(data.link)}
+          onClick={() => window.open(data.web)}
         />
         {/* Name */}
         <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
@@ -56,16 +56,9 @@ const DisplayMember = (props) => {
             </a>
           </dic>
         </div>
-        {/* Button */}
-        {/* <button 
-      className="py-4 px-10 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none"
-      onClick={() => window.open(portfolio.link)}>Portfolio</button> */}
       </div>
     </div>
   );
-};
-const Tmp = (props) => {
-  return <p style={{ color: "white" }}>Hello {props.data.name}</p>;
 };
 const CardDeal = () => (
   <section
@@ -87,25 +80,14 @@ const CardDeal = () => (
       {/* Basic Info and Role */}
       <div className="items-center" style={{ margin: "50px auto 0" }}>
         <div className="grid grid-cols-3 gap-4 py-4 mx-[120px]">
-          {/* <Slider
-                {...SETTINGS}
-                afterChange={(index) => setActiveMember(index)}> */}
           {portfolio.map((data, index) => {
             return index < 3 && <DisplayMember data={data} />;
           })}
-
-          {/* </Slider>	 */}
         </div>
         <div className="grid grid-cols-4 gap-4 py-4">
-          {/* <Slider
-                {...SETTINGS}
-                afterChange={(index) => setActiveMember(index)}> */}
-
           {portfolio.map((data, index) => {
             return index > 2 && <DisplayMember data={data} />;
           })}
-
-          {/* </Slider>	 */}
         </div>
       </div>
     </div>

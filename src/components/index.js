@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import MoreInfo from "./MoreInfo";
 import Navbar from "./Navbar";
+import MyComponent from "./slider/MyComponent";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
 
@@ -22,5 +23,6 @@ export {
   Testimonials,
   Hero,
   MoreInfo,
+  MyComponent,
 };
 
