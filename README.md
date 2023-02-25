@@ -6,7 +6,7 @@ The Software Engineering Landing Page is a website designed to showcase our team
 
 ## Getting Started
 
-To view the Software Engineering Landing Page, you can visit our website at [https://software-engineering-landing.web.app/](https://software-engineering-landing.web.app/). From there, you can learn more about the Pro Chat application and access the application itself.
+To view the Software Engineering Landing Page, you can visit our website at [https://software-engineering-landing.web.app/](https://software-engineering-landing.web.app/). From there, you can learn more about the [Pro Chat](https://github.com/Tuanpluss02/Pro-Chat) application and access the application itself.
 
 ## Features
 
