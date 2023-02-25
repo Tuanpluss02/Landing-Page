@@ -8,7 +8,7 @@ import styles, { layout } from "../../style";
 import MemberSlide from "./MemberSide";
 import "./styles.css";
 
-export default function MyComponent() {
+export default function MemberCard() {
     const Slider = <Splide
         options={{
             type: "loop",
