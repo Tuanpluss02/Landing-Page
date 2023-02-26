@@ -1,12 +1,27 @@
 import styles from "../style";
 import Button from "./Button";
+import styled from "styled-components";
 
+const Break = styled.span`
+  @media (max-width: 550px) {
+    display: block;
+  }
+`;
 const CTA = () => (
-  <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+  <section
+    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+  >
     <div className="flex-1 flex flex-col">
-      <h2 className={styles.heading2}>Let’s try <span className="text-gradient">Pro Chat </span>{" "} now!</h2>
+      <h2 className={styles.heading2}>
+        Let’s try{" "}
+        <Break>
+          <span className="text-gradient">Pro Chat</span>
+        </Break>{" "}
+        now!
+      </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        A real-time messaging web application that allows users to chat with each other instantly.
+        A real-time messaging web application that allows users to chat with
+        each other instantly.
       </p>
     </div>
 
