@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Break = styled.span`
   @media (max-width: 550px) {
-    display: block;
+    display: inline-block;
   }
 `;
 const CTA = () => (
