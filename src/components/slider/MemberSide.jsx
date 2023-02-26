@@ -22,7 +22,7 @@ const DisplayMember = (props) => {
           onClick={() => window.open(data.link)}
         />
         {/* Name */}
-        <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white text-center">
+        <h4 className="font-poppins font-medium text-[16px] leading-[27px] text-white text-center">
           {data.name}
         </h4>
         {/* Role */}

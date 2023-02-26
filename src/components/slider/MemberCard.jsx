@@ -19,100 +19,42 @@ export default function MemberCard() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const Slider =
-    windowWidth >= 1025 ? (
-      <Splide
-        options={{
-          type: "loop",
-          gap: "-50px",
-          width: "100%",
-          drag: "free",
-          arrows: false,
-          pagination: false,
-          perPage: 4,
-          autoScroll: {
-            pauseOnHover: true,
-            pauseOnFocus: false,
-            rewind: false,
-            speed: 2,
+  const Slider = (
+    <Splide
+      options={{
+        type: "loop",
+        gap: "-50px",
+        width: "100%",
+        drag: "free",
+        arrows: false,
+        pagination: false,
+        perPage: 4,
+        autoScroll: {
+          pauseOnHover: true,
+          pauseOnFocus: false,
+          rewind: false,
+          speed: 2,
+        },
+        breakpoints: {
+          1024: {
+            perPage: 3,
           },
-        }}
-        extensions={{ AutoScroll }}
-      >
-        {portfolio.map((data) => {
-          return <MemberSlide data={data} />;
-        })}
-      </Splide>
-    ) : windowWidth >= 751 && windowWidth <= 1024 ? (
-      <Splide
-        options={{
-          type: "loop",
-          gap: "-50px",
-          width: "100%",
-          drag: "free",
-          arrows: false,
-          pagination: false,
-          perPage: 3,
-          autoScroll: {
-            pauseOnHover: true,
-            pauseOnFocus: false,
-            rewind: false,
-            speed: 2,
+          760: {
+            perPage: 2,
           },
-        }}
-        extensions={{ AutoScroll }}
-      >
-        {portfolio.map((data) => {
-          return <MemberSlide data={data} />;
-        })}
-      </Splide>
-    ) : windowWidth >= 550 && windowWidth <= 750 ? (
-      <Splide
-        options={{
-          type: "loop",
-          gap: "-50px",
-          width: "100%",
-          drag: "free",
-          arrows: false,
-          pagination: false,
-          perPage: 2,
-          autoScroll: {
-            pauseOnHover: true,
-            pauseOnFocus: false,
-            rewind: false,
-            speed: 2,
+          550: {
+            perPage: 1,
+            pagination: true,
           },
-        }}
-        extensions={{ AutoScroll }}
-      >
-        {portfolio.map((data) => {
-          return <MemberSlide data={data} />;
-        })}
-      </Splide>
-    ) : (
-      <Splide
-        options={{
-          type: "loop",
-          gap: "-75px",
-          width: "100%",
-          drag: "free",
-          arrows: false,
-          pagination: true,
-          perPage: 1,
-          autoScroll: {
-            pauseOnHover: true,
-            pauseOnFocus: false,
-            rewind: false,
-            speed: 1,
-          },
-        }}
-        extensions={{ AutoScroll }}
-      >
-        {portfolio.map((data) => {
-          return <MemberSlide data={data} />;
-        })}
-      </Splide>
-    );
+        },
+      }}
+      extensions={{ AutoScroll }}
+    >
+      {portfolio.map((data) => {
+        return <MemberSlide data={data} />;
+      })}
+    </Splide>
+  );
   return (
     <section
       id="Member"
