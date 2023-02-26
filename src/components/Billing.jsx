@@ -1,3 +1,4 @@
+
 import { npl } from "../assets";
 import styles, { layout } from "../style";
 
@@ -11,16 +12,16 @@ const Billing = () => (
         This is our major assignment for the Software Engineering course.
       </p>
     </div>
-    <div className={`flex flex-col-reverse sm:flex-row items-center justify-center`}>
-      <div className={layout.sectionImgReverse}>
+    <div className={`flex flex-col sm:flex-row items-center justify-center`}>
+      <div className={layout.sectionImg}>
         <img src={npl} alt="billing" className="relative z-[5]" />
         {/* gradient start */}
         <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
         <div className="absolute z-[0] w-[60%] h-[70%] -left-1/2 bottom-0 rounded-full pink__gradient" />
         {/* gradient end */}
       </div>
-      <div className="pl-20">
-        <div className={layout.sectionInfo}>
+      <div className="pl-10%">
+        <div className={layout.sectionChat}>
           <h1 className={styles.heading2}>
             <span className="text-gradient">Pro Chat </span>{" "}
           </h1>

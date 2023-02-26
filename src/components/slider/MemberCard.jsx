@@ -22,8 +22,19 @@ export default function MemberCard() {
                 pauseOnHover: true,
                 pauseOnFocus: false,
                 rewind: false,
-                speed: 2
-            }
+                speed: 2,
+            },
+            breakpoints: {
+                1024: {
+                    perPage: 3,
+                },
+                768: {
+                    perPage: 2,
+                },
+                640: {
+                    perPage: 1,
+                },
+            },
         }}
         extensions={{ AutoScroll }}
     >

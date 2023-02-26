@@ -23,15 +23,19 @@ const DisplayMember = (props) => {
                     onClick={() => window.open(data.link)}
                 />
                 {/* Name */}
-                <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+                <h4 className="
+                    font-poppins font-medium
+                    text-[16px] leading-[25px]
+                    text-white text-center">
                     {data.name}
                 </h4>
                 {/* Role */}
                 <h4
                     className="
-      font-poppins font-medium 
-      text-[18px] leading-[27px] 
-      text-white"
+                    font-poppins font-medium
+                    text-[16px] leading-[25px]
+                    text-white text-center
+                    opacity-50"
                     style={{ fontStyle: "italic" }}
                 >
                     {data.role}
@@ -64,6 +68,7 @@ const MemberSlide = ({ data }) => {
     return (
         <SplideSlide>
             <DisplayMember data={data} />
+            
         </SplideSlide>
     );
 };
