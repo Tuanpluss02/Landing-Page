@@ -109,7 +109,7 @@ export const portfolio = [
     role: "Frontend",
     github: "https://github.com/Leon28Phongretzka",
     linkedin: "https://www.linkedin.com/in/lg28szp",
-    web: "https://leon28phongretzka.github.io/My_Portfolio/",
+    web: "https://phongretzka-portfolio.netlify.app",
   },
   {
     id: "portfolio-3",
