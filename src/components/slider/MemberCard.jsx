@@ -33,7 +33,7 @@ export default function MemberCard() {
           pauseOnHover: true,
           pauseOnFocus: false,
           rewind: false,
-          speed: 2,
+          speed: 1,
         },
         breakpoints: {
           1024: {
