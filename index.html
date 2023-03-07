@@ -1,17 +1,613 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="bg"></div>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="src/assets/mainicon.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#000000" />
-  <title>Team Seven</title>
-</head>
+    <!-- ALL SECTION IN MAIN -->
+    <main>
+      <header id="header">
+        <nav>
+          <!-- THE NAVIGATION BAR SECTION -->
+          <div class="container">
+            <div class="logo">
+                <a href="https://open.spotify.com/playlist/3IgKEztujeLCWbLrq9C89d?si=22ea22cc201c4192" target="_blank">
+                  <img src="./img/SZP.png" alt="" />
+              </div>
+              <div class="links">
+                <ul>
+                  <li>
+                    <a href="#header">Home</a>
+                  </li>
+                  <li>
+                    <a href="#services">Services</a>
+                  </li>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#blog">Blogs</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+      <!-- INFOMATION SECTION -->
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+              <h1 class="header-title">TRAN PHONG</h1>
+              <p class="text">
+                Hello, I'm Tr Phong - Ehsapa, a web designer and developer, 
+                I am a person who is always curious about new things. 
+                Recently I am trying to challenge myself by learning web development
+                with ambition to become a specialist.
+                Now I am working at
+                <a href="https://www.facebook.com/thenews.of.bayern" target="_blank">This is Bayern Munich</a>
+                and
+                <a href="https://www.facebook.com/NextBundesligaVN" target="_blank">NextBundesliga VN</a>
+                as a technique support, data analyst and writer.
+              </p>
+              <!-- personal infomation -->
+              <h3>Some Details personal-information</h3>
+              <div class="info-list">
+                <ul class="personal-information">
+                  <li class="personal-information">
+                    <i class="uil uil-brush-alt"></i>My Github Name: Ehsapa
+                  </li>
+                  <li class="personal-information">
+                    <i class="uil uil-file-alt"></i>My Real Name: Tran Phong
+                  </li>
+                  <li class="personal-information">
+                    <i class="uil uil-0-plus"></i>Age: 20
+                  </li>
+                  <li class="personal-information">
+                    <i class="uil uil-language"></i>Lang: VIE, ENG, GER
+                  </li>
+                  <li class="work-info">
+                    <i class="uil uil-constructor"></i>Available: Yes
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <div class="column-2 image">
+              <img src="./img/phongrezka.jpg" class="img-element z-index" alt="" />
+          </div>
+        </div>
+      </div>
+      </header>
+      <!-- SERVICE SECTION -->
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="WHAT I WANT TO SERVE, AND IMPROVE MYSELF">Services</h3>
+          </div>
+          <div class="cards">
+            <div class="card-wrap">
+                <div class="card" data-card="UI/UX">
+                  <div class="card-content z-index">
+                    <!-- create border for image -->
 
+                    <img src="./img/app-icon/design-icon.png" class="icon" alt="" />
+                    <h3 class="title-sm">Web Design</h3>
+                    <p class="text">
+                      I want to design the web with my best ability.
+                    </p>
+                    <a href="https://www.figma.com/files/user/1206528029688316354?fuid=1206528029688316354" class="btn small">Read more</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-wrap">
+                <div class="card" data-card="Code">
+                  <div class="card-content z-index">
+                    <img src="./img/app-icon/code-icon.png" class="icon" alt="" />
+                    <h3 class="title-sm">Web Development</h3>
+                    <p class="text">
+                      Dev web is my life. Dev web is my work.
+                    </p>
+                    <a href="https://reactjs.org" class="btn small">Read more</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-wrap">
+                <div class="card" data-card="App">
+                  <div class="card-content z-index">
+                    <img src="./img/app-icon/CPTP.png" class="icon" alt="" />
+                    <h3 class="title-sm">Competitive Programming</h3>
+                    <p class="text">
+                      Competitive aim to specialist.
+                    </p>
+                    <a href="https://codeforces.com/profile/LeonGymretzka" class="btn small">Read more</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-wrap">
+                <div class="card" data-card="App">
+                  <div class="card-content z-index">
+                    <img src="./img/app-icon/rive.png" class="icon" alt="" />
+                    <h3 class="title-sm">RIVE</h3>
+                    <p class="text">
+                      Hope to learn more about Rive Animation.
+                    </p>
+                    <a href="https://rive.app/community/" class="btn small">Read more</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT ME -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who care? Can read this!">About me</h3>
+          </div>
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="header-about">More about me, you can know me with my dev name behind:</h3>
+              <h3 class="header-about">'Ehpasa' / 'Phongretzka'</h3>
+              <p class="text justify-about">
+                More about my achievements:
+                Currently I am a third-year student at the Post and Telecommunications Institute of Technology (PTIT).
+                And my current major is Electronic Telecommunications. Although my currently major, I want to try myself
+                to become a web developer. Not because of trending, I want to learn this and improve myself.
+                Now my GPA is 3.51/4.0 after 5 semesters of studying and I think I can improve it go hand in hand with my
+                development skills.
+              </p>
+              
+          </div>
+              <div class="column-2 image">
+                <section class="skills section" id="skills">
+                  <h2 class="section__title">Skills</h2>
+                  <div class="skill__container container grid">
+                      <div>
+                          <!-- Skills 1 -->
+                          <div class="skills__content skills__open">
+                              <div class="skills__header">
+                                  <i class ="uil uil-brackets-curly skills__icon"></i>
+  
+                                  <div>
+                                      <h1 class="skills__titles">Front-End</h1>
+                                      
+                                  </div>
+  
+                                  <i class ="uil uil-angle-down skills__arrow"></i>
+                              </div>
+                              
+                              <div class="skills__list grid">
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">HTML</h3>
+                                          <span class="skills__number">42%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__html"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">CSS</h3>
+                                          <span class="skills__number">35%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__css"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">JavaScript</h3>
+                                          <span class="skills__number">33%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__js"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">React</h3>
+                                          <span class="skills__number">35%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__react"></span>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                          <!-- Skills 2 -->
+                          <div class="skills__content skills__open">
+                              <div class="skills__header">
+  
+                                  <i class ="uil uil-gitlab skills__icon"></i>
+                                  <div>
+                                      <h1 class="skills__titles">Competitive Programming</h1>
+                                    
+                                  </div>
+  
+                                  <i class ="uil uil-angle-down skills__arrow"></i>
+                              </div>
+                              <div class="skills__list grid">
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">C</h3>
+                                          <span class="skills__number">85%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__c"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">C++</h3>
+                                          <span class="skills__number">55%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__cpp"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">Python</h3>
+                                          <span class="skills__number">33%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__py"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">Codeforces Elo</h3>
+                                          <span class="skills__number">1030</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__java"></span>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                          <!-- Skills 3 -->
+                          <div class="skills__content skills__open">
+                              <div class="skills__header">
+  
+                                  <i class ="uil uil-telescope skills__icon"></i>
+                                  <div>
+                                      <h1 class="skills__titles">Research and Development</h1>
+                                      
+                                  </div>
+  
+                                  <i class ="uil uil-angle-down skills__arrow"></i>
+                              </div>
+                              <div class="skills__list grid">
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">Electronic Telecommunication</h3>
+                                          <span class="skills__number">45%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__ET"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">Electronic Components</h3>
+                                          <span class="skills__number">23%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__EC"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">Information Technology</h3>
+                                          <span class="skills__number">35%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__IT"></span>
+                                      </div>
+                                  </div>
+  
+                                  <div class="skills__data">
+                                      <div class="skills__titles">
+                                          <h3 class="skills__name">Data Analyst</h3>
+                                          <span class="skills__number">37%</span>
+                                      </div>
+                                      <div class="skills__bar">
+                                          <span class="skills__percentage skills__DA"></span>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- BLOG SECTION -->
+      <section class="blog section" id="blog">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title">My Blog</h3>
+            <p class="text">This is my blog about coding/dev-ing or anything inspiring me.</p>
+          </div>
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                alt=""
+                class="points points-sq"
+              />
+
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/dfs.jpg" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">November, 09 2022</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">DFS Algorithms</h3>
+                  <p class="blog-text">
+                    Math Discrete is a very important subject in the field of computer science. 
+                    It present the basic knowledge of mathematics that is used in computer science.
+                    Not only probability staistics and algebra, this subject also mentions about graph theory and Algorithms.
+                    Such as DFS, BFS, Dijkstra, Kruskal, Prim, etc.
+                  </p>
+                  <a href="https://github.com/Leon28Phongretzka/TRR" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/stl.png" alt="" />
+                </div>
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">December, 24 2022</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">Opencoding</h3>
+                  <p class="blog-text">
+                    Simply this is dumb code I was coded in the lastest semester in Computer Programming.
+                    It has many ways to solve the problem, but many of them is brute forces or greedy.
+                    It's not always a good way to solve a competitive program problem. Hope to learn more
+                    about other algorithms etc.
+                  </p>
+                  <a href="https://github.com/Leon28Phongretzka/DayXH" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/discretemath.jpeg" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">Jan, 05 2023</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">Short news from DEVBYTES</h3>
+                  <p class="blog-text">
+                    This site has many news about technologies: From new AI: ChatGPT, Bard, POE ( from Quora )
+                    , to new update for programming languages and frameworks: Python 3.10, React 18, etc.
+                    It's a very good site to keep up with the latest news about technology - you can read less than 
+                    64 words per news to get the main idea.
+                  </p>
+                  <a href="https://twitter.com/DevBytesApp" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="text">PTIT, Ha Dong, Ha Noi</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="text">phong.18.retzka@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="text">+84 12 334 4567</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 class="title">Contact me</h3>
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Send</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+              All about me I des before. So, this about is nothing to say more!
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#blog">Blogs</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Services</h3>
+            <ul>
+              <li>
+                <a href="https://www.figma.com/files/user/1206528029688316354?fuid=1206528029688316354">Web Design</a>
+              </li>
+              <li>
+                <a href="#">Web Dev</a>
+              </li>
+              <li>
+                <a href="#">App Design</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">UI Design</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Subscribe</h3>
+  
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 All rights reserved | Made by
+              <span>Tran Phong</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="https://www.facebook.com/S130Prj3t/" target="_blank" class="home__social-icon">
+                  <i class="uil uil-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/Der_Caucher" target="_blank" class="home__social-icon">
+                    <i class="uil uil-twitter-alt"></i>
+                </a>
+                <a href="https://github.com/Leon28Phongretzka" target="_blank" class="home__social-icon">
+                    <i class="uil uil-github"></i>
+                </a>
+                <a href="https://codeforces.com/profile/LeonGymretzka" target="_blank" class="home__social-icon">
+                    <i class="uil uil-graph-bar"></i>
+                </a>
+              </div>
+            </div>
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script type="text/javascript" src="./js/particles.min.js"></script>
+    <script type="text/javascript" src="./js/custom.js"></script>
+  </body>
 </html>
